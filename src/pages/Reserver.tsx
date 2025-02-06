@@ -97,7 +97,7 @@ const Reserver = () => {
                       features={[
                         "Longueur : 1920 mètres",
                         "Obstacles naturels et artificiels",
-                        "Zones techniques et rapides",
+                        "Grandes montées et descentes",
                         "Pour pilotes expérimentés"
                       ]}
                     />

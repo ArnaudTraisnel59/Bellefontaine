@@ -39,7 +39,7 @@ const Index = () => {
                 <p className="text-gray-600 mb-6">
                   Un circuit technique de 1920 mètres avec des obstacles variés.
                 </p>
-                <Link to="/circuits" className="text-primary hover:text-primary/90 font-semibold">
+                <Link to="/reserver" className="text-primary hover:text-primary/90 font-semibold">
                   Découvrir
                 </Link>
               </div>
@@ -48,7 +48,7 @@ const Index = () => {
                 <p className="text-gray-600 mb-6">
                   Un tracé de 590 mètres avec des enchainements rapides et techniques.
                 </p>
-                <Link to="/circuits" className="text-primary hover:text-primary/90 font-semibold">
+                <Link to="/reserver" className="text-primary hover:text-primary/90 font-semibold">
                   Découvrir
                 </Link>
               </div>
