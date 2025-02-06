@@ -6,22 +6,28 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         {/* Hero Section */}
-        <div className="relative h-[600px] bg-[url('https://as1.ftcdn.net/v2/jpg/02/38/73/76/1000_F_238737634_xLkb4LQ0FtLZcF4TEWKXZ5O23vSlp5Oc.jpg')] bg-cover bg-center">
-          <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-            <div className="text-center text-white">
-              <h1 className="text-5xl font-bold mb-6">
-                Bienvenue au Circuit de Bellefontaine
-              </h1>
-              <p className="text-xl mb-8 max-w-2xl mx-auto">
-                Découvrez nos circuits de motocross et supercross. 
-                Réservez votre session dès maintenant !
-              </p>
-              <Link to="/reserver" className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md transition-colors inline-block">
-                Réserver maintenant
-              </Link>
-            </div>
-          </div>
-        </div>
+<div className="relative h-[600px] overflow-hidden">
+  <img 
+    src="https://as1.ftcdn.net/v2/jpg/02/38/73/76/1000_F_238737634_xLkb4LQ0FtLZcF4TEWKXZ5O23vSlp5Oc.jpg"
+    alt="Motocross"
+    className="absolute inset-0 w-full h-full object-cover object-center md:object-[50%_20%]"
+  />
+  <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+    <div className="text-center text-white">
+      <h1 className="text-5xl font-bold mb-6">
+        Bienvenue au Circuit de Bellefontaine
+      </h1>
+      <p className="text-xl mb-8 max-w-2xl mx-auto">
+        Découvrez nos circuits de motocross et supercross. 
+        Réservez votre session dès maintenant !
+      </p>
+      <Link to="/reserver" className="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md transition-colors inline-block">
+        Réserver maintenant
+      </Link>
+    </div>
+  </div>
+</div>
+
 
         {/* Circuits Section */}
         <section className="py-16 bg-gray-50">

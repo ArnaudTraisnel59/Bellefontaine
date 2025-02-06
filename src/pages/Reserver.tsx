@@ -80,7 +80,7 @@ const Reserver = () => {
                   <div className="grid md:grid-cols-2 gap-8">
                     <CircuitCard
                       title="Circuit Motocross"
-                      description="Un circuit technique de 1.5km avec des obstacles variés pour tous les niveaux."
+                      description="Un circuit motocross technique avec des obstacles variés."
                       image="https://cdn.pixabay.com/photo/2023/06/22/02/25/motocross-8080377_1280.jpg"
                       isSelected={circuit === "motocross"}
                       onClick={() => {
@@ -95,15 +95,15 @@ const Reserver = () => {
                       }}
                       availablePlaces={slotsWithBookings?.find(slot => slot.date === selectedDate)?.circuit_1_available || 0}
                       features={[
-                        "Longueur : 1.5km",
+                        "Longueur : 1920 mètres",
                         "Obstacles naturels et artificiels",
                         "Zones techniques et rapides",
-                        "Adapté à tous les niveaux"
+                        "Pour pilotes expérimentés"
                       ]}
                     />
                     <CircuitCard
                       title="Circuit Supercross"
-                      description="Un tracé indoor spectaculaire avec des enchainements rapides et techniques."
+                      description="Un circuit supercross avec des enchainements rapides et techniques."
                       image="https://images.pexels.com/photos/217872/pexels-photo-217872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                       isSelected={circuit === "supercross"}
                       onClick={() => {
@@ -118,7 +118,7 @@ const Reserver = () => {
                       }}
                       availablePlaces={slotsWithBookings?.find(slot => slot.date === selectedDate)?.circuit_2_available || 0}
                       features={[
-                        "Circuit indoor couvert",
+                        "Longueur : 590 mètres",
                         "Sauts et whoops techniques",
                         "Sections rythmiques",
                         "Pour pilotes expérimentés"
