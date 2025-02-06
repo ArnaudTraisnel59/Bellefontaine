@@ -14,8 +14,7 @@ export const FAQ = () => (
           Quel équipement est nécessaire ?
         </AccordionTrigger>
         <AccordionContent className="px-6">
-          Pour votre sécurité, vous devez porter : un casque homologué, des gants, des bottes de moto, 
-          et une tenue adaptée (pantalon et maillot de cross). Location d'équipement possible sur place.
+        Pour votre sécurité, il est obligatoire de porter un casque homologué, des gants, des bottes de moto, une tenue adaptée (pantalon et maillot de cross), ainsi qu'une protection frontale et dorsale homologuée.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
@@ -23,8 +22,7 @@ export const FAQ = () => (
           Puis-je annuler ma réservation ?
         </AccordionTrigger>
         <AccordionContent className="px-6">
-          Les annulations sont possibles jusqu'à 48h avant la session. 
-          Contactez-nous par téléphone ou email pour toute modification.
+        Les annulations sont possibles via l'espace "Mon compte". Pour toute modification, vous pouvez nous contacter par email ou via la page "Contact".
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
@@ -32,17 +30,7 @@ export const FAQ = () => (
           Quel est le niveau requis ?
         </AccordionTrigger>
         <AccordionContent className="px-6">
-          Le circuit motocross est accessible à tous les niveaux, avec des zones adaptées aux débutants. 
-          Le circuit supercross est recommandé pour les pilotes expérimentés.
-        </AccordionContent>
-      </AccordionItem>
-      <AccordionItem value="item-4">
-        <AccordionTrigger className="px-6">
-          Y a-t-il des motos en location ?
-        </AccordionTrigger>
-        <AccordionContent className="px-6">
-          Oui, nous proposons des motos en location (50€ supplémentaires). 
-          Réservation obligatoire à l'avance. Plusieurs cylindrées disponibles.
+        Les circuits de motocross et de supercross sont conçus pour les pilotes ayant un niveau compétition.
         </AccordionContent>
       </AccordionItem>
     </Accordion>

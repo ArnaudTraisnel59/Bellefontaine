@@ -75,17 +75,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Contact Information Cards */}
           <div className="space-y-4">
-            <Card className="p-6 hover:shadow-lg transition-shadow">
-              <div className="flex items-center space-x-4">
-                <div className="bg-primary/10 p-3 rounded-full">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900">Téléphone</h3>
-                  <p className="text-gray-600">+33 1 23 45 67 89</p>
-                </div>
-              </div>
-            </Card>
+            
 
             <Card className="p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center space-x-4">
@@ -94,7 +84,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">contact@bellefontaine.fr</p>
+                  <p className="text-gray-600">motocrossavesnois@gmail.com</p>
                 </div>
               </div>
             </Card>
@@ -106,7 +96,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Adresse</h3>
-                  <p className="text-gray-600">123 Rue de Bellefontaine, 75000 Paris</p>
+                  <p className="text-gray-600">25 Rue de Bellefontaine, 59440 Avesnes-sur-Helpe</p>
                 </div>
               </div>
             </Card>

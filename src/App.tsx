@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/auth" element={<Auth />} />
         <Route path="/account" element={<Account />} />
-        <Route path="/circuits" element={<Circuits />} />
+        {/* <Route path="/circuits" element={<Circuits />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/reserver" element={<Reserver />} />

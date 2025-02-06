@@ -51,12 +51,12 @@ const Navbar = () => {
       >
         Accueil
       </button>
-      <button 
+      {/* <button 
         onClick={() => handleNavigation("/circuits")} 
         className={`hover:text-primary transition-colors text-left ${isActivePath("/circuits")}`}
       >
         Circuits
-      </button>
+      </button> */}
       <button 
         onClick={() => handleNavigation("/reserver")} 
         className={`hover:text-primary transition-colors text-left ${isActivePath("/reserver")}`}

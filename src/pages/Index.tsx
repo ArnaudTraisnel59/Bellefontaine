@@ -31,7 +31,7 @@ const Index = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-2xl font-bold mb-4">Circuit Motocross</h3>
                 <p className="text-gray-600 mb-6">
-                  Un circuit technique de 1.5km avec des obstacles variés pour tous les niveaux.
+                  Un circuit technique de 1920 mètres avec des obstacles variés.
                 </p>
                 <Link to="/circuits" className="text-primary hover:text-primary/90 font-semibold">
                   Découvrir
@@ -40,7 +40,7 @@ const Index = () => {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-2xl font-bold mb-4">Circuit Supercross</h3>
                 <p className="text-gray-600 mb-6">
-                  Un tracé indoor spectaculaire avec des enchainements rapides et techniques.
+                  Un tracé de 590 mètres avec des enchainements rapides et techniques.
                 </p>
                 <Link to="/circuits" className="text-primary hover:text-primary/90 font-semibold">
                   Découvrir
